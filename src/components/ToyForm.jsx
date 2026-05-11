@@ -3,8 +3,8 @@ function ToyForm({ onAddToy }) {
     e.preventDefault();
 
     const newToy = {
-      name: e.target.name.value,
-      image: e.target.image.value,
+      name: e.target.elements.name.value,
+      image: e.target.elements.image.value,
       likes: 0,
     };
 
